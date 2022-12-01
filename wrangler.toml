@@ -1,4 +1,4 @@
-name = "guild-sync"
+name = "rw-sync"
 main = "src/index.ts"
 compatibility_date = "2022-06-23"
 
@@ -6,6 +6,5 @@ compatibility_date = "2022-06-23"
 crons = ["*/5 * * * *"] # every 5 minutes
 
 [vars]
-CUSTOM_HEADER_LINK = "[The Guild's](https://the-guild.dev)"
+CUSTOM_HEADER_LINK = "[RedwoodJS's Notion](https://www.notion.so/redwoodjs/Next-release-3-3-0-f12dfa06faf24334bad04dd4b3104f4f)"
 ENABLE_FETCH = "1"
-IGNORED_REPOS = "the-guild-org/crisp-chats"
